@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 550,
+  "height": 300,
+  "title": " Relative Socio-economic Advantage Score for Victorian LGAs in 2021",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Aste0071/FIT3175Assigment2/65e64ac1d41710b4922561e66a8b384cf44a8db1/LGA_2021_AUST_GDA2020.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "LGA_2021_AUST_GDA2020"
+    }
+  },
+  "transform": [{
+    "lookup": "properties.LGA_CODE21",
+    "from": {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Aste0071/FIT3175Assigment2/65e64ac1d41710b4922561e66a8b384cf44a8db1/VIC%20Local%20Gov%20Area%20SEIFA%202021.csv"
+      },
+      "key": "2021 Local Government Area (LGA) Code",
+      "fields": ["2021 Local Government Area (LGA) Code","Score"]
+    }
+  }],
+  "projection": {
+    "type": "mercator"
+  },
+  "mark": "geoshape",
+  "encoding": {
+    "color": {
+      "field": "Score",
+      "type": "quantitative"
+    }
+  }
+}
