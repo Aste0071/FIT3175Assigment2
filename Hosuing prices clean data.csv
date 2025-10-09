@@ -1,83 +1,165 @@
-Quarter ,Median Price in Melbourne,Median Price outside Melbourne
-Mar-2005,310.0,210.0
-Jun-2005,320.0,205.0
-Sep-2005,320.0,210.0
-Dec-2005,332.0,220.0
-Mar-2006,330.0,224.0
-Jun-2006,345.0,220.0
-Sep-2006,346.0,222.0
-Dec-2006,360.0,230.0
-Mar-2007,345.0,230.0
-Jun-2007,362.0,230.0
-Sep-2007,370.0,233.5
-Dec-2007,410.0,245.0
-Mar-2008,385.0,243.5
-Jun-2008,400.0,239.0
-Sep-2008,385.0,235.0
-Dec-2008,385.0,236.0
-Mar-2009,375.0,238.0
-Jun-2009,400.0,245.0
-Sep-2009,422.0,250.0
-Dec-2009,477.5,266.5
-Mar-2010,468.0,275.0
-Jun-2010,500.0,278.2
-Sep-2010,488.3,280.0
-Dec-2010,520.0,292.5
-Mar-2011,485.0,293.0
-Jun-2011,502.5,295.0
-Sep-2011,487.0,286.5
-Dec-2011,495.0,290.5
-Mar-2012,478.0,297.5
-Jun-2012,485.0,285.0
-Sep-2012,480.0,290.0
-Dec-2012,508.0,291.5
-Mar-2013,486.0,298.0
-Jun-2013,500.0,282.5
-Sep-2013,520.0,298.0
-Dec-2013,561.0,308.0
-Mar-2014,504.0,290.0
-Jun-2014,528.9,286.0
-Sep-2014,505.0,280.0
-Dec-2014,552.5,298.0
-Mar-2015,525.0,299.0
-Jun-2015,561.0,295.0
-Sep-2015,580.0,295.6
-Dec-2015,612.3,310.0
-Mar-2016,568.0,311.0
-Jun-2016,610.0,305.0
-Sep-2016,605.0,310.0
-Dec-2016,675.0,320.8
-Mar-2017,657.5,328.0
-Jun-2017,720.0,332.0
-Sep-2017,692.0,328.0
-Dec-2017,750.0,350.0
-Mar-2018,731.0,355.0
-Jun-2018,750.0,355.0
-Sep-2018,720.0,355.0
-Dec-2018,735.0,370.0
-Mar-2019,685.0,370.0
-Jun-2019,700.0,370.0
-Sep-2019,705.0,375.0
-Dec-2019,760.0,390.0
-Mar-2020,730.0,390.0
-Jun-2020,720.0,395.0
-Sep-2020,710.0,410.0
-Dec-2020,760.0,439.0
-Mar-2021,800.0,455.0
-Jun-2021,830.0,478.5
-Sep-2021,840.0,500.0
-Dec-2021,940.0,553.0
-Mar-2022,888.0,580.0
-Jun-2022,900.0,573.1
-Sep-2022,850.0,560.0
-Dec-2022,875.0,570.0
-Mar-2023,835.0,570.0
-Jun-2023,842.0,570.0
-Sep-2023,840.0,570.0
-Dec-2023,868.0,580.0
-Mar-2024,845.0,575.0
-Jun-2024,845.1,570.0
-Sep-2024,825.0,556.5
-Dec-2024,852.5,560.0
-Mar-2025,840.0,572.0
-Jun-2025,820.0,570.0
+Year,Region,"Median Price (1,000$)",,,
+Mar-2005,In Melbourne,310.0,,,
+Mar-2005,Outside Melbourne,210.0,,,
+Jun-2005,In Melbourne,320.0,,,
+Jun-2005,Outside Melbourne,205.0,,,
+Sep-2005,In Melbourne,320.0,,,
+Sep-2005,Outside Melbourne,210.0,,,
+Dec-2005,In Melbourne,332.0,,,
+Dec-2005,Outside Melbourne,220.0,,,
+Mar-2006,In Melbourne,330.0,,,
+Mar-2006,Outside Melbourne,224.0,,,
+Jun-2006,In Melbourne,345.0,,,
+Jun-2006,Outside Melbourne,220.0,,,
+Sep-2006,In Melbourne,346.0,,,
+Sep-2006,Outside Melbourne,222.0,,,
+Dec-2006,In Melbourne,360.0,,,
+Dec-2006,Outside Melbourne,230.0,,,
+Mar-2007,In Melbourne,345.0,,,
+Mar-2007,Outside Melbourne,230.0,,,
+Jun-2007,In Melbourne,362.0,,,
+Jun-2007,Outside Melbourne,230.0,,,
+Sep-2007,In Melbourne,370.0,,,
+Sep-2007,Outside Melbourne,233.5,,,
+Dec-2007,In Melbourne,410.0,,,
+Dec-2007,Outside Melbourne,245.0,,,
+Mar-2008,In Melbourne,385.0,,,
+Mar-2008,Outside Melbourne,243.5,,,
+Jun-2008,In Melbourne,400.0,,,
+Jun-2008,Outside Melbourne,239.0,,,
+Sep-2008,In Melbourne,385.0,,,
+Sep-2008,Outside Melbourne,235.0,,,
+Dec-2008,In Melbourne,385.0,,,
+Dec-2008,Outside Melbourne,236.0,,,
+Mar-2009,In Melbourne,375.0,,,
+Mar-2009,Outside Melbourne,238.0,,,
+Jun-2009,In Melbourne,400.0,,,
+Jun-2009,Outside Melbourne,245.0,,,
+Sep-2009,In Melbourne,422.0,,,
+Sep-2009,Outside Melbourne,250.0,,,
+Dec-2009,In Melbourne,477.5,,,
+Dec-2009,Outside Melbourne,266.5,,,
+Mar-2010,In Melbourne,468.0,,,
+Mar-2010,Outside Melbourne,275.0,,,
+Jun-2010,In Melbourne,500.0,,,
+Jun-2010,Outside Melbourne,278.2,,,
+Sep-2010,In Melbourne,488.3,,,
+Sep-2010,Outside Melbourne,280.0,,,
+Dec-2010,In Melbourne,520.0,,,
+Dec-2010,Outside Melbourne,292.5,,,
+Mar-2011,In Melbourne,485.0,,,
+Mar-2011,Outside Melbourne,293.0,,,
+Jun-2011,In Melbourne,502.5,,,
+Jun-2011,Outside Melbourne,295.0,,,
+Sep-2011,In Melbourne,487.0,,,
+Sep-2011,Outside Melbourne,286.5,,,
+Dec-2011,In Melbourne,495.0,,,
+Dec-2011,Outside Melbourne,290.5,,,
+Mar-2012,In Melbourne,478.0,,,
+Mar-2012,Outside Melbourne,297.5,,,
+Jun-2012,In Melbourne,485.0,,,
+Jun-2012,Outside Melbourne,285.0,,,
+Sep-2012,In Melbourne,480.0,,,
+Sep-2012,Outside Melbourne,290.0,,,
+Dec-2012,In Melbourne,508.0,,,
+Dec-2012,Outside Melbourne,291.5,,,
+Mar-2013,In Melbourne,486.0,,,
+Mar-2013,Outside Melbourne,298.0,,,
+Jun-2013,In Melbourne,500.0,,,
+Jun-2013,Outside Melbourne,282.5,,,
+Sep-2013,In Melbourne,520.0,,,
+Sep-2013,Outside Melbourne,298.0,,,
+Dec-2013,In Melbourne,561.0,,,
+Dec-2013,Outside Melbourne,308.0,,,
+Mar-2014,In Melbourne,504.0,,,
+Mar-2014,Outside Melbourne,290.0,,,
+Jun-2014,In Melbourne,528.9,,,
+Jun-2014,Outside Melbourne,286.0,,,
+Sep-2014,In Melbourne,505.0,,,
+Sep-2014,Outside Melbourne,280.0,,,
+Dec-2014,In Melbourne,552.5,,,
+Dec-2014,Outside Melbourne,298.0,,,
+Mar-2015,In Melbourne,525.0,,,
+Mar-2015,Outside Melbourne,299.0,,,
+Jun-2015,In Melbourne,561.0,,,
+Jun-2015,Outside Melbourne,295.0,,,
+Sep-2015,In Melbourne,580.0,,,
+Sep-2015,Outside Melbourne,295.6,,,
+Dec-2015,In Melbourne,612.3,,,
+Dec-2015,Outside Melbourne,310.0,,,
+Mar-2016,In Melbourne,568.0,,,
+Mar-2016,Outside Melbourne,311.0,,,
+Jun-2016,In Melbourne,610.0,,,
+Jun-2016,Outside Melbourne,305.0,,,
+Sep-2016,In Melbourne,605.0,,,
+Sep-2016,Outside Melbourne,310.0,,,
+Dec-2016,In Melbourne,675.0,,,
+Dec-2016,Outside Melbourne,320.8,,,
+Mar-2017,In Melbourne,657.5,,,
+Mar-2017,Outside Melbourne,328.0,,,
+Jun-2017,In Melbourne,720.0,,,
+Jun-2017,Outside Melbourne,332.0,,,
+Sep-2017,In Melbourne,692.0,,,
+Sep-2017,Outside Melbourne,328.0,,,
+Dec-2017,In Melbourne,750.0,,,
+Dec-2017,Outside Melbourne,350.0,,,
+Mar-2018,In Melbourne,731.0,,,
+Mar-2018,Outside Melbourne,355.0,,,
+Jun-2018,In Melbourne,750.0,,,
+Jun-2018,Outside Melbourne,355.0,,,
+Sep-2018,In Melbourne,720.0,,,
+Sep-2018,Outside Melbourne,355.0,,,
+Dec-2018,In Melbourne,735.0,,,
+Dec-2018,Outside Melbourne,370.0,,,
+Mar-2019,In Melbourne,685.0,,,
+Mar-2019,Outside Melbourne,370.0,,,
+Jun-2019,In Melbourne,700.0,,,
+Jun-2019,Outside Melbourne,370.0,,,
+Sep-2019,In Melbourne,705.0,,,
+Sep-2019,Outside Melbourne,375.0,,,
+Dec-2019,In Melbourne,760.0,,,
+Dec-2019,Outside Melbourne,390.0,,,
+Mar-2020,In Melbourne,730.0,,,
+Mar-2020,Outside Melbourne,390.0,,,
+Jun-2020,In Melbourne,720.0,,,
+Jun-2020,Outside Melbourne,395.0,,,
+Sep-2020,In Melbourne,710.0,,,
+Sep-2020,Outside Melbourne,410.0,,,
+Dec-2020,In Melbourne,760.0,,,
+Dec-2020,Outside Melbourne,439.0,,,
+Mar-2021,In Melbourne,800.0,,,
+Mar-2021,Outside Melbourne,455.0,,,
+Jun-2021,In Melbourne,830.0,,,
+Jun-2021,Outside Melbourne,478.5,,,
+Sep-2021,In Melbourne,840.0,,,
+Sep-2021,Outside Melbourne,500.0,,,
+Dec-2021,In Melbourne,940.0,,,
+Dec-2021,Outside Melbourne,553.0,,,
+Mar-2022,In Melbourne,888.0,,,
+Mar-2022,Outside Melbourne,580.0,,,
+Jun-2022,In Melbourne,900.0,,,
+Jun-2022,Outside Melbourne,573.1,,,
+Sep-2022,In Melbourne,850.0,,,
+Sep-2022,Outside Melbourne,560.0,,,
+Dec-2022,In Melbourne,875.0,,,
+Dec-2022,Outside Melbourne,570.0,,,
+Mar-2023,In Melbourne,835.0,,,
+Mar-2023,Outside Melbourne,570.0,,,
+Jun-2023,In Melbourne,842.0,,,
+Jun-2023,Outside Melbourne,570.0,,,
+Sep-2023,In Melbourne,840.0,,,
+Sep-2023,Outside Melbourne,570.0,,,
+Dec-2023,In Melbourne,868.0,,,
+Dec-2023,Outside Melbourne,580.0,,,
+Mar-2024,In Melbourne,845.0,,,
+Mar-2024,Outside Melbourne,575.0,,,
+Jun-2024,In Melbourne,845.1,,,
+Jun-2024,Outside Melbourne,570.0,,,
+Sep-2024,In Melbourne,825.0,,,
+Sep-2024,Outside Melbourne,556.5,,,
+Dec-2024,In Melbourne,852.5,,,
+Dec-2024,Outside Melbourne,560.0,,,
+Mar-2025,In Melbourne,840.0,,,
+Mar-2025,Outside Melbourne,572.0,,,
+Jun-2025,In Melbourne,820.0,,,
+Jun-2025,Outside Melbourne,570.0,,,
